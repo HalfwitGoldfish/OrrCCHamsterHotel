@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    background-color: #000324;
+    height: 120px;
+}
+
+#reserve {
+    border-color: white;
+}
+
+#logo {
+    width: 143px;
+    height: 100px;
+}
+
+#hamsterhome {
+    width: 369px;
+    height: 416px;
+}
+
+#heroimage {
+    height: 500px;
+}
+
+#herotext {
+    position: absolute;
+    top: 253px;
+    width: 945px;
+    height: 232px;
+    background-color: #000324cc;
+    color: white;
+}
+
+#hotelimage {
+    height: 738px;
+}
+
+#roomcards {
+    position: absolute;
+    top: 1266px;
+    color: white;
+}
+
+.navbarbuttons {
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+    position: absolute;
+    top: 80px;
+    width: 92px;
+    height: 33px;
+}
+
+.cards {
+    border-radius: 0px;
+    border: none;
+    height: 522px;
+}
+
+.cardimages {
+    border-radius: 0px;
+}
+
+.cardlist {
+    height: 157px;
+    font-size: 14px;
+}
+
+.cardbuttons {
+    width: 150px;
+    border-radius: 0px;
+    text-align: center;
+    font-weight: bold;
+}
