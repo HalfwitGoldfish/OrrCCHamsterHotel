@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="./style/styles.css" />
   </head>
   <body>
-    <div class="container-fluid">
-      <!-- Nav-Bar -->
+    <div class="container-fluid nopadding">
+      <!-- Navbar-Start -->
       <div id="navbar" class="row d-flex justify-content-center">
         <div class="col-1 d-flex justify-content-center">
           <button class="navbarbuttons">Overview</button>
@@ -25,7 +25,7 @@
         <div class="col-1 d-flex justify-content-center">
           <button class="navbarbuttons">Packages</button>
         </div>
-        <div class="col-2 d-flex justify-content-center">
+        <div class="col-2 d-flex justify-content-center align-items-end">
           <img
             id="logo"
             src="./hotelMarkupAssets/Logo.png"
@@ -42,11 +42,12 @@
           <button id="reserve" class="navbarbuttons">Reserve</button>
         </div>
       </div>
+      <!-- Navbar-End -->
 
-      <!-- Hero-Image -->
+      <!-- Hero-Image-Start -->
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 mb-5">
+          <div class="col-12 mb-5 nopadding">
             <img
               id="heroimage"
               class="img-fluid"
@@ -55,7 +56,7 @@
             />
           </div>
 
-          <!-- Hero-Text -->
+          <!-- Hero-Text-Start -->
           <div class="d-flex justify-content-center">
             <div
               id="herotext"
@@ -72,11 +73,13 @@
               </div>
             </div>
           </div>
+          <!-- Hero-Text-End -->
         </div>
       </div>
+      <!-- Hero-Image-End -->
     </div>
 
-    <!-- Award-Section -->
+    <!-- Award-Section-Start -->
     <div class="container-fluid">
       <div class="row d-flex justify-content-center mt-5 mb-5">
         <div id="hamsterhome" class="col-6 d-flex justify-content-center">
@@ -86,8 +89,8 @@
           />
         </div>
         <div class="col-6">
-          <h1>Welcome to a hamster's paradise</h1>
-          <p>
+          <h1 class="mb-4">Welcome to a hamster's paradise</h1>
+          <p class="mb-3">
             Nestled in the heart of Cavia California, La Petite Maison is a
             luxury hotel designed for the small mammal with extravagance in
             mind. Escape to the warm comforts of stunning rooms, a relaxing spa,
@@ -100,24 +103,37 @@
             thank you for choosing La Petite Maison.
           </p>
           <div class="row">
-            <div class="col-4 d-flex justify-content-center">
-              <img src="./hotelMarkupAssets/awardfinest.png" alt="" />
+            <div class="col-4 awards">
+              <img
+                id="finestaward"
+                src="./hotelMarkupAssets/awardfinest.png"
+                alt=""
+              />
             </div>
-            <div class="col-4 d-flex justify-content-center">
-              <img src="./hotelMarkupAssets/awardsatisfaction.png" alt="" />
+            <div class="col-4 awards">
+              <img
+                id="satisfactionaward"
+                src="./hotelMarkupAssets/awardsatisfaction.png"
+                alt=""
+              />
             </div>
-            <div class="col-4 d-flex justify-content-center">
-              <img src="./hotelMarkupAssets/awardgenuine.png" alt="" />
+            <div class="col-4 awards">
+              <img
+                id="genuineaward"
+                src="./hotelMarkupAssets/awardgenuine.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- Award-Section-End -->
 
-    <!-- Our-Rooms -->
+    <!-- Our-Rooms-Start -->
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12 mt-5 mb-5">
+        <div class="col-12 mt-5 mb-5 nopadding">
           <img
             id="hotelimage"
             class="img-fluid"
@@ -126,7 +142,7 @@
           />
         </div>
 
-        <!-- Our-Rooms-Cards -->
+        <!-- Our-Rooms-Cards-Start -->
         <div class="d-flex justify-content-center">
           <div
             id="roomcards"
@@ -136,7 +152,7 @@
               <h2 class="d-flex justify-content-center mb-4">Our Rooms</h2>
             </div>
             <div class="row d-flex justify-content-center">
-              <div class="col-4 d-flex justify-content-end">
+              <div class="col-4 d-flex justify-content-end pe-0">
                 <div class="card cards" style="width: 369px">
                   <img
                     src="./hotelMarkupAssets/room1.jpg"
@@ -159,7 +175,8 @@
                   </div>
                 </div>
               </div>
-              <div class="col-4 d-flex justify-content-center">
+
+              <div class="col-4 d-flex justify-content-center nopadding">
                 <div class="card cards" style="width: 369px">
                   <img
                     src="./hotelMarkupAssets/room1.jpg"
@@ -182,7 +199,8 @@
                   </div>
                 </div>
               </div>
-              <div class="col-4 d-flex justify-content-start">
+
+              <div class="col-4 d-flex justify-content-start ps-0">
                 <div class="card cards" style="width: 369px">
                   <img
                     src="./hotelMarkupAssets/room1.jpg"
@@ -199,10 +217,10 @@
                       <li class="mb-3">
                         Second room with fireplace, hot tub, and balcony
                       </li>
-                      <li class="mb-3">
-                        Seed Bar and coffee station
+                      <li class="mb-3">Seed Bar and coffee station</li>
+                      <li>
+                        Full kitchen with a refrigerator, stove, and island
                       </li>
-                      <li>Full kitchen with a refrigerator, stove, and island</li>
                     </div>
                     <a href="#" class="btn btn-primary cardbuttons">Reserve</a>
                   </div>
@@ -211,8 +229,264 @@
             </div>
           </div>
         </div>
+        <!-- Our-Rooms-Cards-End -->
       </div>
     </div>
+    <!-- Our-Rooms-End -->
+
+    <!-- Packages-Start -->
+    <div class="container-fluid mb-5">
+      <div class="row">
+        <div class="d-flex justify-content-center mb-3 mt-5">
+          <h2>Packages</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col d-flex justify-content-end">
+          <img
+            class="packageimg"
+            src="./hotelMarkupAssets/hamsterwedding.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col d-flex justify-content-start">
+          <div class="packagetext">
+            <h4>Beach Wedding Package</h4>
+            <p class="packageprice">Starting US $1,500.00</p>
+            <p>
+              Feel the warmth of the beach as the flames in your hearts ignite
+              during our romantic beach side wedding. All wedding packages
+              include catering, an open bar, and one tier wedding cake (9"
+              Vanilla standard cake). A private dinner for your closets family
+              members and friends will be provided after the ceremony.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col d-flex justify-content-end">
+          <div class="packagetext">
+            <h4>Full Bloom Package</h4>
+            <p class="packageprice">Starting US $1,000.00</p>
+            <p>
+              Enjoy the shade of our cherry trees as you join us during our
+              spring time celebration. We invite you to our orchards for cherry,
+              strawberry, and apple picking that is open all day. We end each
+              evening with fresh, vegetable centric dinners along with a live
+              show from local musicians.
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-start">
+          <img
+            class="packageimg"
+            src="./hotelMarkupAssets/hamsterspring.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col d-flex justify-content-end mb-5">
+          <img
+            class="packageimg"
+            src="./hotelMarkupAssets/hamstercheese.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col d-flex justify-content-start">
+          <div class="packagetext">
+            <h4>Cheese and Seed Tour Package</h4>
+            <p class="packageprice">Starting US $1,200.00</p>
+            <p>
+              Immerse yourself in the flavors of Cavia with our Cheese and Seed
+              tour. We consulted with connoisseurs from around the globe to
+              bring you the best flavors that nature has to offer, and create
+              our cheeses right here at our local creamery. Cheese and seeds are
+              served all day and nightly spa treatment is provided after dinner.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Packages-End -->
+
+    <!-- Amenities-Start -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 mt-2 mb-5 nopadding">
+          <img
+            id="amenitiesimage"
+            class="img-fluid"
+            src="./hotelMarkupAssets/bg.jpg"
+            alt="Hotel Entrance"
+          />
+        </div>
+
+        <div id="amenitiestext" class="col d-flex justify-content-center">
+          <div>
+            <div class="d-flex justify-content-center">
+              <h2 class="mb-4">Amenities</h2>
+            </div>
+            <div class="d-flex justify-content-center">
+              <p>
+                Here at La Petite Maison, we invite you to enjoy our services in
+                hopes that you have the most relaxing stay we can provide.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="d-flex justify-content-center">
+          <div class="col-2 d-flex justify-content-center">
+            <img id="hour24" src="./hotelMarkupAssets/24hour.png" alt="" />
+          </div>
+          <div class="col-2 d-flex justify-content-center">
+            <img
+              id="breakfast"
+              src="./hotelMarkupAssets/breakfast.png"
+              alt=""
+            />
+          </div>
+          <div class="col-2 d-flex justify-content-center">
+            <img id="valet" src="./hotelMarkupAssets/valet.png" alt="" />
+          </div>
+          <div class="col-2 d-flex justify-content-center">
+            <img id="pool" src="./hotelMarkupAssets/pool.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="d-flex justify-content-center">
+          <div class="col-2 d-flex justify-content-center">
+            <p id="hour24text">24 Hour Room Service</p>
+          </div>
+          <div class="col-2 d-flex justify-content-center">
+            <p id="breakfasttext">Complimentary Breakfast</p>
+          </div>
+          <div class="col-2 d-flex justify-content-center">
+            <p id="valettext">Valet Parking</p>
+          </div>
+          <div class="col-2 d-flex justify-content-center">
+            <p id="pooltext">Beachside Pool</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Amenities-End -->
+
+    <!-- Reserve-Room-start -->
+    <div class="container d-flex justify-content-center">
+      <div id="reservebg" class="mt-5">
+        <div class="row textwhite">
+          <div class="d-flex justify-content-center">
+            <h2 class="mt-4 mb-4">Reserve a Room</h2>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-5">
+          <div class="row textwhite">
+            <div class="col d-flex justify-content-center">
+              <form>
+                <div>
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Check-in</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control reserveboxes"
+                    id="exampleInputEmail1"
+                  />
+                </div>
+              </form>
+            </div>
+
+            <div class="col d-flex justify-content-center">
+              <form>
+                <div>
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Check-out</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control reserveboxes"
+                    id="exampleInputEmail1"
+                  />
+                </div>
+              </form>
+            </div>
+
+            <div class="col d-flex justify-content-center">
+              <form>
+                <div>
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Number of Guests</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control reserveboxes"
+                    id="exampleInputEmail1"
+                  />
+                </div>
+              </form>
+            </div>
+
+            <div class="col d-flex justify-content-center">
+              <form>
+                <div>
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Room Type</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control reserveboxes"
+                    id="exampleInputEmail1"
+                  />
+                </div>
+              </form>
+            </div>
+
+            <div class="col d-flex justify-content-center">
+              <div class="d-flex align-items-end">
+                <button type="button" class="btn btn-primary reservebutton">
+                  Check Availability
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-flex justify-content-center">
+      <div class="mb-5">
+        <img
+          id="hamsterreserve"
+          src="./hotelMarkupAssets/hamsterreserve.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- Reserve-Room-End -->
+
+    <!-- Footer-Start -->
+    <div class="container">
+      <div class="row">
+        <p>img</p>
+      </div>
+      <div class="row">
+        <p>location</p>
+      </div>
+      <div class="row">
+        <p>copyright</p>
+      </div>
+    </div>
+    <!-- Footer-End -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
