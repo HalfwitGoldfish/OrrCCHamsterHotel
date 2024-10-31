@@ -5,7 +5,7 @@
 
 #navbar {
     background-color: #000324;
-    height: 120px;
+    min-height: 120px;
 }
 
 #logo {
@@ -171,17 +171,15 @@
     color: white;
 }
 
-.navbarbuttons {
-    background-color: transparent;
+.nav-link {
     color: white;
-    border-color: transparent;
-    width: 92px;
-    height: 33px;
-    margin-bottom: 5px;
+    min-width: 92px;
+    min-height: 33px;
 }
 
-.navbarbuttons:hover {
-    border-color: white;
+.nav-link:hover {
+    border: solid white 1px;
+    color: white;
 }
 
 .cards {
