@@ -8,10 +8,6 @@
     height: 120px;
 }
 
-#reserve {
-    border-color: white;
-}
-
 #logo {
     width: 143px;
     height: 100px;
@@ -21,6 +17,11 @@
 #hamsterhome {
     width: 369px;
     height: 416px;
+}
+
+#hamsterhometext {
+    width: 753px;
+    height: 155px;
 }
 
 #heroimage {
@@ -38,6 +39,21 @@
 
 #hotelimage {
     height: 738px;
+}
+
+#queenroom {
+    width: 369px;
+    height: 190px;
+}
+
+#kingroom {
+    width: 369px;
+    height: 190px;
+}
+
+#beachroom {
+    width: 369px;
+    height: 190px;
 }
 
 #roomcards {
@@ -147,7 +163,8 @@
 }
 
 #footerbg {
-    
+    background-color: #000324;
+    height: 300px;
 }
 
 .textwhite {
@@ -162,6 +179,10 @@
     top: 80px;
     width: 92px;
     height: 33px;
+}
+
+.navbarbuttons:hover {
+    border-color: white;
 }
 
 .cards {
