@@ -175,10 +175,9 @@
     background-color: transparent;
     color: white;
     border-color: transparent;
-    position: absolute;
-    top: 80px;
     width: 92px;
     height: 33px;
+    margin-bottom: 5px;
 }
 
 .navbarbuttons:hover {
