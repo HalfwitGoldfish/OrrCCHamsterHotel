@@ -21,47 +21,11 @@
 
 #hamsterhometext {
     width: 753px;
-    height: 155px;
+    min-height: 155px;
 }
 
-#heroimage {
-    height: 500px;
-}
 
-#herotext {
-    position: absolute;
-    top: 253px;
-    width: 945px;
-    height: 232px;
-    background-color: #000324cc;
-    color: white;
-}
-
-#hotelimage {
-    height: 738px;
-}
-
-#queenroom {
-    width: 369px;
-    height: 190px;
-}
-
-#kingroom {
-    width: 369px;
-    height: 190px;
-}
-
-#beachroom {
-    width: 369px;
-    height: 190px;
-}
-
-#roomcards {
-    position: absolute;
-    top: 1266px;
-    color: white;
-}
-
+/* Awards-Start */
 #finestaward {
     width: 200px;
     height: 153px;
@@ -76,98 +40,118 @@
     width: 200px;
     height: 175px;
 }
+/* Awards-End */
+
 
 #hour24 {
-    position: absolute;
-    top: 3163px;
-    width: 150px;
-    height: 101px;
+    max-width: 150px;
+    min-height: 101px;
 }
 
 #hour24text{
-    position: absolute;
-    top: 3296px;
-    width: 198px;
-    height: 25px;
+    max-width: 198px;
+    min-height: 25px;
     color: white;
     text-align: center;
 }
 
 #breakfast {
-    position: absolute;
-    top: 3163px;
-    width: 150px;
-    height: 104px;
+    max-width: 150px;
+    min-height: 104px;
 }
 
 #breakfasttext {
-    position: absolute;
-    top: 3296px;
-    width: 228px;
-    height: 25px;
+    max-width: 228px;
+    min-height: 25px;
     color: white;
     text-align: center;
 }
 
 #valet {
-    position: absolute;
-    top: 3149px;
-    width: 100px;
-    height: 115px;
+    max-width: 100px;
+    min-height: 115px;
 }
 
 #valettext {
-    position: absolute;
-    top: 3296px;
-    width: 118px;
-    height: 25px;
+    max-width: 118px;
+    min-height: 25px;
     color: white;
     text-align: center;
 }
 
 #pool {
-    position: absolute;
-    top: 3157px;
-    width: 155px;
-    height: 110px;
+    max-width: 155px;
+    min-height: 110px;
 }
 
 #pooltext {
-    position: absolute;
-    top: 3296px;
-    width: 134px;
-    height: 25px;
+    max-width: 134px;
+    min-height: 25px;
     color: white;
     text-align: center;
-}
-
-#amenitiestext {
-    position: absolute;
-    top: 2987px;
-    color: white;
-}
-
-#amenitiesimage {
-    height: 548px;
 }
 
 #reservebg {
     background-color: #000324;
     width: 1137px;
-    height: 207px;
-}
-
-#hamsterreserve {
-    width: 1137px;
-    height: 414px;
+    max-width: 1137px;
+    min-height: 207px;
 }
 
 #footerbg {
     background-color: #000324;
-    height: 300px;
+    min-height: 300px;
+}
+
+
+/*  */
+.backwhite {
+    background-color: white;
 }
 
 .textwhite {
+    color: white;
+}
+
+#amenitiestext {
+    color: white;
+}
+
+#amenitiesimage {
+    background-image: url(../hotelMarkupAssets/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1920px;
+    min-height: 548px;
+}
+
+#hamsterreserve {
+    background-image: url(../hotelMarkupAssets/hamsterreserve.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1137px;
+    height: 414px;
+    max-height: 414px;
+}
+
+#roomcards {
+    margin-top: 2em;
+    color: white;
+}
+
+#hotelimage {
+    background-image: url(../hotelMarkupAssets/bg2.jpg);
+    background-size: cover;
+    max-width: 1920px;
+    min-height: 738px;
+    background-repeat: no-repeat;
+}
+
+#herotext {
+    width: 945px;
+    max-width: 945px;
+    min-height: 232px;
+    background-color: #000324cc;
     color: white;
 }
 
@@ -178,31 +162,229 @@
 }
 
 .nav-link:hover {
-    border: solid white 1px;
+    border: solid white 2px;
     color: white;
+}
+
+.heroimage {
+    background-image: url(../hotelMarkupAssets/header.jpg);
+    background-size: cover;
+    max-width: 1920px;
+    min-height: 500px;
+    background-repeat: no-repeat;
 }
 
 .cards {
     border-radius: 0px;
     border: none;
-    height: 522px;
+    max-height: 522px;
 }
 
 .cardimages {
     border-radius: 0px;
-}
-
-.cardlist {
-    height: 157px;
-    font-size: 14px;
+    max-width: 369px;
+    max-height: 190px;
 }
 
 .cardbuttons {
     width: 150px;
+    max-width: 150px;
     border-radius: 0px;
     text-align: center;
     font-weight: bold;
 }
+
+.cardlist {
+    min-height: 157px;
+    font-size: 14px;
+}
+
+.packageimg {
+    max-width: 561px;
+    max-height: 234px;
+}
+
+.packagetext {
+    display: flex;
+    max-width: 561px;
+    min-height: 234px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.reserveboxes {
+    max-width: 177px;
+    min-height: 38px;
+    border-radius: 0px;
+}
+
+.reservebutton {
+    max-width: 177px;
+    min-height: 38px;
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+@media (max-width: 576px){
+    .packageimg {
+        width: 0px;
+        height: 0px;
+    }
+
+    #reserve {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-label {
+        margin-top: 15px;
+    }
+
+    .reservebutton {
+        margin-top: 30px;
+    }
+
+    #hamsterreserve {
+        height: 0px;
+        width: 0px;
+    }
+
+    #finestaward {
+        width: 0px;
+        height: 0px;
+    }
+
+    #satisfactionaward {
+        width: 0px;
+        height: 0px;
+    }
+
+    #genuineaward {
+        width: 0px;
+        height: 0px;
+    }
+
+    #hour24 {
+        width: 0px;
+        height: 0px;
+    }
+
+    #breakfast {
+        width: 0px;
+        height: 0px;
+    }
+
+    #valet {
+        width: 0px;
+        height: 0px;
+    }
+
+    #pool {
+        width: 0px;
+        height: 0px;
+    }
+
+    #hamsterhome {
+        width: 0px;
+        height: 0px;
+    }
+
+    #flex-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 0px;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+
+    #mobile-cards {
+        padding: 0px;
+    }
+
+    .cardimages {
+        width: 0px;
+    }
+
+    .cards {
+        background-color: transparent;
+    }
+
+    .card-body {
+        width: 330px;
+        margin-bottom: 20px;
+        background-color: white;
+    }
+
+    #amenity-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    #amenityimg {
+        height: 0px;
+    }
+
+    #here-at {
+        height: 80px;
+    }
+}
+
+@media (max-width:768px){
+    #hamsterhome {
+        height: 0px;
+    }
+
+    #flex-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 0px;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+
+    #mobile-cards {
+        padding: 0px;
+    }
+
+    .cardimages {
+        width: 0px;
+    }
+
+    .cards {
+        background-color: transparent;
+    }
+
+    .card-body {
+        width: 550px;
+        margin-bottom: 20px;
+        background-color: white;
+    }
+
+    #package-alter {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    #reserve {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-label {
+        margin-top: 15px;
+    }
+
+    .reservebutton {
+        margin-top: 30px;
+    }
+}
+/*  */
 
 .nopadding {
     padding: 0px;
@@ -214,33 +396,6 @@
     align-items: center;
 }
 
-.packageimg {
-    width: 561px;
-    height: 234px;
-}
-
 .packageprice {
     color: #1F51A8;
-}
-
-.packagetext {
-    display: flex;
-    width: 561px;
-    height: 234px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-}
-
-.reserveboxes {
-    width: 177px;
-    height: 38px;
-    border-radius: 0px;
-}
-
-.reservebutton {
-    width: 177px;
-    height: 38px;
-    border-radius: 0px;
-    font-weight: bold;
 }
